@@ -1,5 +1,6 @@
 ### Instruções
 -
+
 ### Contexto: 
 Você trabalha em uma startup que oferece suporte via mensagens de texto. As mensagens dos clientes são escritas de maneira informal, com abreviações e erros de digitação. Sua tarefa é normalizar esses textos para facilitar a análise.
 
