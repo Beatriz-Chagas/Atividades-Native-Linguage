@@ -1,20 +1,14 @@
 Instruções
--
+Contexto: Você trabalha em uma startup que oferece suporte via mensagens de texto. As mensagens dos clientes são escritas de maneira informal, com abreviações e erros de digitação. Sua tarefa é normalizar esses textos para facilitar a análise.
 
-1. Crie uma lista de dicionários para armazenar comentários e emoções conforme a tabela abaixo:
-2. Faça uma rotina para totalizar a quantidade de comentários negativos e comentários positivos
-3. Calcule e mostre na tela a proporção de cada sentimento em relação ao total de comentários
-4. Faça uma rotina para mostrar apenas os comentários positivos
-5. Adicione uma chave em cada dicionário chamado sentimento_valor que conterá 0 se o sentimento for negativo ou 1 se o sentimento for positivo
+*Tarefa:*
+Identifique e corrija abreviações e erros comuns (por exemplo, "vc" → "você", "eh" → "é").
+Remova gírias e expressões que não adicionam valor semântico.
+Retorne o texto normalizado.
+*Exemplo de entrada:*
+"Vc eh mt bom, recomendo mto!!!"
 
-| Autor | Comentário | Sentimento | 
+*Exemplo de saída:*
+"você é muito bom recomendo muito"
 
-|João |Estou tão feliz hoje! |Positivo |
-
-|Maria |Este filme é tão triste. | Negativo| 
-
-|Carlos |Que dia chuvoso entediante... |Positivo| 
-
-|Ana | Adorei a nova música da banda!|Negativo |
-
-|Roberto| Eureka, consegui resolver este problema |Positivo |
+*Dica:* Construa um dicionário para de gírias de maneira que a chave seja a gíria e o valor a palavra formal.
