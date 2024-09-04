@@ -8,6 +8,7 @@ Retorne o texto normalizado.
 *Exemplo de entrada:*
 "Vc eh mt bom, recomendo mto!!!"
 
+<<<<<<< HEAD
 *Exemplo de saída:*
 "você é muito bom recomendo muito"
 
